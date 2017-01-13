@@ -1,5 +1,5 @@
 import {REGISTER} from './const';
 
-export function register(username, password) {
+export default function register(username, password) {
   return {type: REGISTER, value: {username, password}};
 }
